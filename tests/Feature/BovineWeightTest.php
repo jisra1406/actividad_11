@@ -26,7 +26,7 @@ class BovineWeightTest extends TestCase
 
         $this->assertDatabaseHas('bovines', [
             'tag_number' => 'CR-8874-A',
-            'estimated_weight' => 450.5,
+            'estimated_weight' => 999.9,
         ]);
     }
 }
